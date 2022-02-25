@@ -1,0 +1,68 @@
+*{
+    list-style: none;
+    
+}
+.main_arrivals{
+    background-color: aliceblue;
+}
+.Arrival_header h3{
+   
+    font-size: 28px;
+    font-weight: bolder;
+    padding: 2% 3%;
+    font-family: sans-serif;
+
+}
+.Arrival_logo {
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0 70px;
+    column-gap: 53px;
+     background-color: aliceblue; 
+}
+.Arrival_logo1{
+    background-color: white;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Arrival_logo2{
+    background-color: white;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.one{
+    display: flex;
+    flex-direction: column;
+}
+.two{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.three{
+    border: 1px solid black;
+    padding: 15px;
+    
+}
+.Arrival_logo3{
+    background-color: white;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Arrival_logo4{
+    background-color: white;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Arrival_rate1{
+    display: flex;
+} 

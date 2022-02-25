@@ -1,0 +1,30 @@
+.footer_logo img{
+    width: 10%;
+}
+.footer{
+    margin: 0 6%;
+}
+.footer_text p{
+    font-size: 13px;
+    line-height: 1.5;
+    letter-spacing: 0.9px;
+    color: #9b9b9b;
+    font-family:sans-serif;
+    font-weight: lighter;
+}
+.footer_store{
+    display: flex;
+    column-gap: 5%;
+    justify-content: space-between;
+    margin: 6% 9%;
+    
+}
+.footer_store h1,h2,h3,h4{
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 3;
+}
+.footer_store li{
+font-size: 12px;
+line-height: 2.5;
+}

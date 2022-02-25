@@ -1,0 +1,20 @@
+.Img_work{
+    /* background-color: black; */
+    width: 25%;
+}
+.Img_text h1{
+    color:black;
+}
+.Work_header h4{
+    padding-top: 25px;
+    padding-left: 44%;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.work_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5%;
+    margin: 0 15%;
+}

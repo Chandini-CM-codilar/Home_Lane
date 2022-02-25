@@ -1,0 +1,19 @@
+.V_text1, .V_text2, .V_text3, .V_text4 ,p{
+    color: black;
+    font-size: 15px;
+}
+.Visual_image{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5%;
+    margin: 2% 5%;
+    padding-bottom: 5%;
+  
+}
+.V_text1, .V_text2, .V_text3, .V_text4 ,h1{
+    color: red;
+    font-size: 20px;
+   
+}

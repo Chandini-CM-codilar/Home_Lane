@@ -1,17 +1,32 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import Homelane from './homelane';
+import Section from './section';
+import Grid from './grid';
+import Appliances from './appliances';
+import Newarrivals from './Newarrivals';
+import Work from './work';
+import Login from './login';
+import Rating from './rating';
+import Visual from './visual';
+import Footer from './footer';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <>
+
+    <Homelane />
+    <Section/>
+    <Grid/>
+    <Appliances/>
+    <Newarrivals/>
+    <Work/>
+    <Login/>
+    <Rating/>
+    <Visual/>
+    <Footer/>
+  </>,
+
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
